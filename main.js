@@ -1,4 +1,5 @@
 
+
 function checkNum(num) {
     if(!isNaN(num)){
         rampNumbers(num)
@@ -38,7 +39,8 @@ console.log(rampNumbers(5235))
 // TODO:
 // Create a way to accept an input
 // Create "checks" to make sure a number was inputed - Lisa completed
-// Create a website document that displays everything
+// Create a website document that displays everything - Viri
 // Stylize the website*
 // Find way to optimize the code*
+
 
