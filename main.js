@@ -1,3 +1,13 @@
+
+function checkNum(num) {
+    if(!isNaN(num)){
+        rampNumbers(num)
+    }
+    else {
+        console.log('It is not a number')
+    }
+}
+
 // This function checks to see if the number will "ramp up"
 function rampNumbers(num) {
     // Define variables
@@ -27,7 +37,8 @@ console.log(rampNumbers(5235))
 
 // TODO:
 // Create a way to accept an input
-// Create "checks" to make sure a number was inputed
+// Create "checks" to make sure a number was inputed - Lisa completed
 // Create a website document that displays everything
 // Stylize the website*
 // Find way to optimize the code*
+
