@@ -14,16 +14,16 @@
         <label for="word">Number</label>
         <input
           type="number"
-          step="0.01"
+          step="1"
           name="Numbers"
           placeholder="Type your number"
           id="number"
-          onkeyup="updateWord(this)"
+          onkeyup="numberCheck(this)"
         />
       </div>
       <div>
 
-        <input type="button" id="button" value="Ramp Number?" onclick="handleSubmit()" />
+        <input type="button" id="button" value="Ramp Number?" onclick="numberCheck()" />
 
       </div>
     </form>
