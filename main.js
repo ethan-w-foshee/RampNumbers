@@ -10,6 +10,7 @@ function checkNum(num) {
 }
 
 // This function checks to see if the number will "ramp up"
+
 function rampNumbers(num) {
     // Define variables
     num = num.toString()
@@ -54,6 +55,7 @@ const button = document.getElementById("button")
 //         }
 //     }
 
+
 function isNumRamp(num) {
     let d1, d2;
     while (num >= 10) {
@@ -66,14 +68,13 @@ function isNumRamp(num) {
     return true;
 }
 
+
 console.log(rampNumbers(1235))
 
 // TODO:
 // Create a way to accept an input -- Jaziel
 // Create "checks" to make sure a number was inputed --- Lisa
 // Create a website document that displays everything --- Viri
+
 // Stylize the website*
 // Find way to optimize the code*
-
-
-
